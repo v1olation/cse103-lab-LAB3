@@ -1,0 +1,13 @@
+﻿# Setup Guide
+
+## Prerequisites
+- Python 3.8 or higher
+- Git 2.x or higher
+
+## How to Run
+```powershell
+git clone https://github.com/v1olation/cse103-lab-LAB3.git
+cd cse103-lab-LAB3
+python src/main.py
+
+```

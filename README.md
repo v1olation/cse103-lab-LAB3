@@ -1,102 +1,40 @@
-# \# CSE103 Lab — LAB 3: GitHub Collaboration \& API Interaction
+﻿# CSE103 Lab — LAB 3: GitHub Collaboration & API Interaction
 
-# 
+![Language](https://img.shields.io/badge/language-Python-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-# !\[Last Commit](https://img.shields.io/github/last-commit/v1olation/cse103-lab-LAB3)
+## Overview
 
-# !\[Language](https://img.shields.io/badge/language-Python-blue)
+Lab work for the CSE103 course at K.R. Mangalam University, Gurugram. This repository demonstrates Git workflows, public API requests, JSON analysis, and Markdown documentation.
 
-# !\[Status](https://img.shields.io/badge/status-active-brightgreen)
+## Repository Structure
 
-# 
+```text
+cse103-lab-LAB3/
+├── docs/
+│   └── setup.md
+├── src/
+│   └── main.py
+├── tests/
+│   └── test_main.py
+├── .gitignore
+├── CHANGELOG.md
+├── MARKDOWN_GUIDE.md
+├── README.md
+├── my_resume_v1.pdf
+└── users.json
+```
 
-# \## Overview
+## How to Run
 
-# 
+```powershell
+python src/main.py
+```
 
-# This repository contains lab work for \*\*LAB 3\*\* of the Computer Fundamentals \& Career Pathways (CSE103) course at \*\*K.R. Mangalam University\*\*, Gurugram.
+See [docs/setup.md](docs/setup.md) for setup instructions.
 
-# 
+## References
 
-# \## Repository Structure
-
-# 
-
-# ```text
-
-# cse103-lab-LAB3/
-
-# ├── README.md
-
-# ├── CHANGELOG.md
-
-# ├── MARKDOWN\_GUIDE.md
-
-# ├── main.py
-
-# └── .gitignore
-
-# ```
-
-# 
-
-# \## Skills Demonstrated
-
-# 
-
-# | Skill | Status |
-
-# |----------------------|-------------|
-
-# | Git initialisation | Completed |
-
-# | Meaningful commits | Completed |
-
-# | Remote push / pull | Completed |
-
-# | Markdown docs | Completed |
-
-# | API interaction | Completed |
-
-# 
-
-# \## How to Run
-
-# 
-
-# ```bash
-
-# git clone https://github.com/v1olation/cse103-lab-LAB3.git
-
-# cd cse103-lab-LAB3
-
-# python main.py
-
-# ```
-
-# 
-
-# \## Key Learning Outcomes
-
-# 
-
-# \- Configured Git identity and initialised local repositories
-
-# \- Created atomic commits with Conventional Commit messages
-
-# \- Pushed and pulled changes with a GitHub remote
-
-# \- Authored structured Markdown documentation
-
-# 
-
-# \## References
-
-# 
-
-# \- \[Pro Git Book](https://git-scm.com/book/en/v2)
-
-# \- \[GitHub Skills](https://skills.github.com/)
-
-# \- \[Markdown Guide](https://www.markdownguide.org/)
-
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [GitHub Skills](https://skills.github.com/)
+- [Markdown Guide](https://www.markdownguide.org/)
